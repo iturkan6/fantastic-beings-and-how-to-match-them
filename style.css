@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#board {
+    background-image: url("board-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+#status-bar {
+    width: 100vw;
+    height: 10vh;
+}
+
+#map {
+    margin: 3vh auto;
+    height: 60vh;
+    width: 60vh;
+}
+
+.cell {
+    background-color: rgba(103, 101, 168, 0.4);
+    border: 1px solid rgb(103, 101, 168);
+}
